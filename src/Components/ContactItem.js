@@ -5,11 +5,13 @@ import styled from 'styled-components';
 function ContactItem({title, icon, cont1, cont2}) {
     return (
         <ContactItemStyled>
+            
             <div className="left-content">
                 {
                     icon
                 }
             </div>
+            
             <div className="right-content">
                 <h6>{title}</h6>
                 <p>{cont1}</p>
