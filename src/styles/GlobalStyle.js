@@ -40,6 +40,11 @@ const GlobalStyle = createGlobalStyle`
     --scrollbar-thump-color: #6b6b6b;
     --scrollbar-track-color: #383838;
     --boxshadow-color:rgba(0, 0, 0, 0.329);
+    --portfolio-bgcolor:#FEFBFB;
+    --portfolio-color:rgb(0,0,0);
+    --portfolio-head:rgba(0,0,0,0.5);
+    --portfoilio-low:rgba(0,0,0,0.7);
+    
 }
 .dark-theme{
     --primary-color: #007bff;
@@ -59,6 +64,10 @@ const GlobalStyle = createGlobalStyle`
     --scrollbar-thump-color: #6b6b6b;
     --scrollbar-track-color: #383838;
     --boxshadow-color:#03045e;
+    --portfolio-bgcolor:#0F0F0F;
+    --portfolio-color:#F2F2F2;
+    --portfolio-head:rgba(120,120,120,0.5);
+    --portfoilio-low:rgb(30,40,50);
 }
 
 *{
